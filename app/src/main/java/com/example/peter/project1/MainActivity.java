@@ -184,6 +184,12 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()){
                     case R.id.monchinh:
                         Intent i1 = new Intent(MainActivity.this,SanPhamActivity.class);
+						
+						// Thêm Toast DUCNGUYEN
+						Toast.makeText(getApplicationContext(), "Món Ăn Chính Nè", Toast.LENGTH_LONG).show();
+						//END TOAST
+						
+						
                         i1.putExtra("LOAI","Món chính");
                         startActivity(i1);
                         break;
