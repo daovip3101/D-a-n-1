@@ -48,6 +48,55 @@
                 android:layout_gravity="center"
                 android:background="@color/border" />
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Giá sản phẩm :"
+                    android:textStyle="bold"
+                    android:textColor="@color/maunen"
+                    android:textSize="@dimen/sizexemthem"/>
+                <TextView
+                    android:id="@+id/tv_tonggiasp_hoantat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="72.000 VNĐ"
+                    android:textSize="@dimen/sizexemthem"
+                    android:textColor="@color/noidung"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Giảm giá :"
+                    android:textStyle="bold"
+                    android:textColor="@color/maunen"
+                    android:textSize="@dimen/sizexemthem"/>
+
+                <TextView
+                    android:id="@+id/tv_giamgia_hoantat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 VNĐ"
+                    android:textStyle="bold"
+                    android:textColor="@color/noidung"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="@dimen/sizexemthem"/>
+            </LinearLayout>
             <View
                 android:layout_width="250dp"
                 android:layout_height="2dp"
@@ -224,16 +273,13 @@
                     app:layout_constraintBottom_toBottomOf="parent" />
 
                 <Button
-                    android:textStyle="bold"
-                    android:textColor="#fffbfb"
-                    android:text="HOÀN TẤT"
-                    android:background="#f00"
                     android:id="@+id/btn_hoantat"
                     android:layout_width="380dp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
+                    android:background="@drawable/btn_hoantat"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.466"

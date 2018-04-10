@@ -2,7 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/border"
     android:orientation="vertical"
@@ -15,12 +15,11 @@
 
         <ImageView
             android:id="@+id/imgV_hinhsp_sanpham"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:background="@drawable/garan"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -32,23 +31,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Gà rán"
-        android:textSize="15sp"
+        android:textSize="@dimen/sizeMrFood"
         android:textColor="@color/tensp"
         android:textStyle="bold"
-        android:layout_margin="5dp"
+        android:layout_margin="10dp"
         android:layout_gravity="center"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_margin="10dp"
         android:layout_gravity="center">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Giá :"
             android:textStyle="bold"
-            android:textSize="15sp"
+            android:textSize="@dimen/sizeMrFood"
             android:textColor="@color/maunen"/>
         <TextView
             android:id="@+id/tv_giasp_sanpham"
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:text="45.000 VNĐ"
             android:textColor="@color/maunen"
-            android:textSize="15sp"
+            android:textSize="@dimen/sizeMrFood"
             android:textStyle="bold"/>
 
     </LinearLayout>
@@ -64,9 +64,9 @@
 
     <ImageButton
         android:id="@+id/btn_giohang_sanpham"
-        android:layout_width="150dp"
-        android:layout_height="35dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         android:background="@drawable/btgiohanghiaaa"/>
 </LinearLayout>

@@ -195,8 +195,9 @@
                     android:id="@+id/img_giohang_chi_tiet"
                     android:layout_width="100dp"
                     android:layout_height="65dp"
-                    android:background="@drawable/gio"
-                    android:layout_gravity="center"/>
+                    android:layout_marginLeft="@dimen/mgLgio"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/gio" />
 
             </android.support.design.widget.BottomNavigationView>
         </LinearLayout>
