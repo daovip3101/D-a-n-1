@@ -1,4 +1,4 @@
-package com.example.peter.project1;
+﻿package com.example.peter.project1;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -94,7 +94,7 @@ public class GioHangActivity extends AppCompatActivity {
 
        public void getDataFromSanPhamActivity() {
         arrayList_giohang = (ArrayList<SanPham>) getIntent().getSerializableExtra("arrayGioHang");
-//           Toast.makeText(this, "Đã Nhận danh sách giỏ hàng từ SanphamAcTivity - "+arrayList_giohang.size(), Toast.LENGTH_SHORT).show();
+//           Toast.makeText(this, "Đã Nhận danh sách giỏ hàng từ SanphamAcTivity Ahihi - "+arrayList_giohang.size(), Toast.LENGTH_SHORT).show();
     }
 
     public static ArrayList<SanPham> getArryGioHang() {
