@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.peter.project1.ChiTietActivity;
 import com.example.peter.project1.Model.SanPham;
